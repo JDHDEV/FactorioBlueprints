@@ -1,0 +1,307 @@
+Builder order FasterStart and LongReach
+
+#####################################################################################################################################################
+Space Age Start:
+
+*. Mine 12 coal
+*. Place Iron Burner Miner with 8 Coal into Stone Furnaces with 4 Coal
+*. Mine 20 Stone
+*. Mine 2 Coal
+*. Mine 10 Iron and insert into Stone Furnace
+*. Make 4 Burner Miners
+*. Automate 4 Coal Burner Miners into each other (Space Age Start Blueprint 1)
+*. Refill Iron Burner Miners and Stone Furnaces with coal
+*. Mine 30 Stone
+*. Make 4 Burner Miners
+*. Make 2 Stone Furnaces
+*. Make 1 Iron Chest
+*. Place 1 Iron Burner Miners into Stone Furnaces
+*. Place 1 Copper Burner Miners into Stone Furnaces
+*. Place 2 Stone Burner Miner into one Iron Chest
+
+Expand Resource Collection:
+	*. Refill all Burner Miners and Stone Furnaces with Coal
+	*. Make 4 Burner Miners
+	*. Place 4 Coal Burner Miners into each other
+	*. Make 4 Burner Miners
+	*. Make 4 Stone Furnaces
+	*. Place 4 Iron Burner Miners into Stone Furnaces (6 total)
+
+*. Get ? at least 30 Wood
+*. Build and fill Basic Power (Space Age Start Blueprint 2)
+*. Research Automation
+*. Build 10 Red Science
+
+Expand Resource Collection:
+	*. Refill all Burner Miners and Stone Furnaces with Coal
+	*. Make 7 Burner Miners
+	*. Place 4 Coal Burner Miners into each other
+	*. Make 3 Stone Furnaces
+	*. Place 2 Iron Burner Miners into Stone Furnaces (8 total)
+	*. Place 1 Copper Burner Miners into Stone Furnaces (2 total)
+
+*. Make 8 Inserters
+*. Make 5 Iron Crates
+*. Make 2 powerpoles
+*. Make 3 Assembleing Machine 1
+*. Build and fill Burner Miner and Stone Furnace (Space Age Start Blueprint 3)
+
+Expand Resource Collection:
+	*. Refill all Burner Miners and Stone Furnaces with Coal
+	*. Make 8 Burner Miners
+	*. Place 4 Coal Burner Miners into each other
+	*. Make 4 Stone Furnaces
+	*. Place 2 Iron Burner Miners into Stone Furnaces (10 total)
+	*. Place 2 Copper Burner Miners into Stone Furnaces (4 total)
+
+*. Build and fill Assembling Machine 1 (Space Age Start Blueprint 4)
+
+Expand Resource Collection:
+	*. Refill all Burner Miners and Stone Furnaces with Coal
+	*. Place 4 Coal Burner Miners into each other
+	*. Place 2 Iron Burner Miners into Stone Furnaces (12 total)
+	*. Place 2 Copper Burner Miners into Stone Furnaces (6 total)
+	*. Place 2 Stone Burner Miner into one Iron Chest (4 total)
+
+*. Build and fill Iron Chests (Space Age Start Blueprint 5)
+
+Expand Resource Collection:
+	*. Refill all Burner Miners and Stone Furnaces with Coal
+	*. Place 4 Coal Burner Miners into each other
+	*. Place 2 Iron Burner Miners into Stone Furnaces (14 total)
+	*. Place 2 Copper Burner Miners into Stone Furnaces (8 total)
+
+*. Build and fill Inserters (Space Age Start Blueprint 6)
+
+Expand Resource Collection:
+	*. Place 8 Iron Burner Miners into Stone Furnaces (22 total)
+
+*. Build and fill Belts (Space Age Start Blueprint 7)	
+*. Build and fill Stone Bricks (Space Age Start Blueprint 8)	
+*. Build and fill Pipes (Space Age Start Blueprint 9)	
+*. Build and fill Electric Poles (Space Age Start Blueprint 10)	
+
+*. Make 1 Steam Engine
+*. Place 1 Steam Engine
+	
+*. Build and fill Automation Science (Space Age Start Blueprint 11)		
+*. Research Logistics, Electric Mining Drill, Gun Turret, Repair Packs, Radar, Lamp
+*. Refill all the Chests
+*. Collect the Spaceship reamins.
+
+*. Build and fill Underground and Splitter (Space Age Start Blueprint 12)
+*. Build and fill Electric Mining Drill (Space Age Start Blueprint 13)
+*. Refill all the Chests
+
+Expand Resource Collection:
+	*. Place 8 Iron Burner Miners into Stone Furnaces (30 total)
+	
+*. Build and fill Power (Space Age Start Blueprint 14)
+*. Refill all the Chests
+
+*. Build and fill Firearm Magazines and Gun Turrets(Space Age Start Blueprint 15)
+*. Build and fill another Belts (Space Age Start Blueprint 7)	
+*. Research Military, Fast Inserter                                  
+
+#####################################################################################################################################################
+Space Age Yellow Bus:
+
+The main bus standard is:
+	Always use the Lane with the least amount of Balancers and is closest to the top
+	Always use the Belt with the least amount of Splitters and is closest to the top
+	When each Belt in a Lane is split, place a Balancer with one space after the last Splitter
+	
+*. Build and fill Ore Smelter Setup (Space Age Yellow Bus Blueprint 1) x2
+*. Refill all the Chests
+
+*. Set up 4 Electric Coal Miners onto belts into the Ore Smelter Setup (Space Age Yellow Bus Blueprint 2)
+*. Set up 4 Electric Iron Miners onto belts into the Ore Smelter Setup (Space Age Yellow Bus Blueprint 2)
+*. Set up 4 Electric Copper Miners onto belts into the Ore Smelter Setup (Space Age Yellow Bus Blueprint 2)
+
+*. Set up 4 Electric Coal Miners onto belts to the power plant (Space Age Yellow Bus Blueprint 2)
+
+*. Build and fill Power (Space Age Start Blueprint 13)
+*. Set up 8 Electric Iron Miners onto belts into the Ore Smelter Setup (Space Age Yellow Bus Blueprint 2) (12 Total)
+
+*. Research Stone Wall, Steel, Logistic Science, Logistics 2            
+
+*. Place Bus Origin (Space Age Yellow Bus Blueprint 3)
+*. Connect Smelters to Bus
+*. Refill all the Chests
+
+*. Place Green Circuit A (Space Age Yellow Bus Blueprint 4) x2
+*. Refill all the Chests
+
+*. Place Firearm Magazines (Space Age Yellow Bus Blueprint 5) x2
+*. Deconstruct Firearm Magazines
+*. Refill all the Chests
+
+*. Set up 12 Electric Iron Miners onto belts into the Ore Smelter Setup (Space Age Yellow Bus Blueprint 2) (24 Total)
+*. Skip 1 Chunk (32 units) and Place Yellow Belts (Space Age Yellow Bus Blueprint 6)
+
+*. Set up 12 Electric Iron Miners onto belts into the Ore Smelter Setup (Space Age Yellow Bus Blueprint 2) (36 Total)
+*. Set up 4 Electric Copper Miners onto belts into the Ore Smelter Setup (Space Age Yellow Bus Blueprint 2) (8 Total)
+*. Place a second Yellow Belt from the Iron Miners to the Smelter Setup
+
+*. Place Inserters (Space Age Yellow Bus Blueprint 7)
+*. Refill all the Chests
+*. Increase power to 10 Steam Engines
+
+*. Place Assembling Machine 1 (Space Age Yellow Bus Blueprint 8)
+*. Refill all the Chests
+
+*. Place Full Stone Furnace Ore Smelter over the far left Iron Stone Furnaces (Space Age Yellow Bus Blueprint 9)
+*. Set up 12 Electric Iron Miners onto belts into the Ore Smelter Setup (Space Age Yellow Bus Blueprint 2) (48 Total)
+*. Refill all the Chests
+
+*. Place Repair Packs and Low Volume (Space Age Yellow Bus Blueprint 10)
+*. Refill all the Chests
+
+*. Place Automation and Logistics Science Packs (Space Age Yellow Bus Blueprint 11)
+*. Deconstruct Labs
+
+*. Set up 8 Electric Copper Miners onto belts into the Ore Smelter Setup (Space Age Yellow Bus Blueprint 2) (16 Total)
+*. Place 2 Labs at the end of Blueprint 10	
+*. Take Iron Plates and bootstrap the Assembleing Machines for Blueprint 10
+
+*. Place Full Stone Furnace Ore Smelter over the far right Stone Furnaces (Space Age Yellow Bus Blueprint 9)
+*. Refill all the Chests
+
+*. Duplicate Power Setup (20 Total)
+*. Set up 8 Electric Coal Miners onto belts (Space Age Yellow Bus Blueprint 2) (16 Total)	
+
+*. Place 4 Labs at the end of Blueprint 10
+*. Research Automation 2, Military 2, Engine, Automobilism
+
+*. Deconstruct all Coal, Iron and Copper Burner Miners and place all Ores into Smelters
+*. Deconstruct Electric Miner, Burner Miner and Stone Furnace
+*. Set up 8 Electric Coal Miners onto belts (Space Age Yellow Bus Blueprint 2) (24 Total)	
+
+*. Place Guns (Space Age Yellow Bus Blueprint 12)
+*. Deconstruct Gun Turrets
+*. Deconstruct Inserters
+*. Deconstruct Assembling Machine 1
+
+*. Place Fast Inserters (Space Age Yellow Bus Blueprint 13)
+*. Place Red Belts (Space Age Yellow Bus Blueprint 14) 
+*. Deconstruct Yellow Belts, Underground, and Splitters
+*. Take Iron Plates and bootstrap the Assembleing Machines
+
+*. Set up 12 Electric Iron Miners (60 Total)
+*. Place a third Yellow Belt from the Iron Miners to the Smelter Setup
+
+*. Set up 16 Electric Copper Miners (32 Total)	
+*. Deconstruct Pipes
+*. Increase power to 30 Steam Engines
+*. Set up 8 Electric Coal Miners (32 Total)	
+
+*. Take Iron Plates and bootstrap the Assembleing Machines
+
+*. Upgrade the Inserters to Fast Inserters for the Red Belt Assembling Machines and Gears and the remaining Iron Ore Output Chest
+*. Refill all the Chests
+*. Wait until Logistics 2 is done
+
+
+
+
+
+
+
+
+
+
+
+
+
+*. Reverse the Inserters on the Chests after the Smelters except for the furthest right Iron
+
+*. Refill all the Chests
+
+*. Continue to bootstrap the Logistic Science Assembing Machines with Yellow Belts and Inserters
+
+*. Place as many Electric Iron Miners as possible
+
+*. Set up 12 Electric Copper Miners
+
+*. Place as many Electric Coal Miners as possible
+
+*. Set up 4 Electric Stone Miners onto belts into the Ore Smelter Setup (Space Age Yellow Bus Blueprint 2)
+
+#####################################################################################################################################################
+Space Age Red Bus:
+
+
+
+
+
+
+
+
+*. Create Priority Spliters for the Iron Belt for the Gears in the Belt Assembling
+*. Make sure that the Belt Assembling Chests have Yellow Splitters and Yellow Underground
+
+putt all extra Iron plates and geasrs into the yellow belt assembly #@!describe the loop
+*. Upgrade all the Yellow Belts that run from Iron Miners to Smelters to Red Belts
+*. Upgrade all the Yellow Belts that run from Coal Miners to Smelters to Red Belts
+
+*. Build and fill Ore Smelter Setup (Space Age Yellow Bus Blueprint 11) 
+*. Reconfigure the smelters to be 4 Iron, 2 Copper
+*. Remove the last Iron Chest on the Smelter Output
+	
+*. Upgrade all the Yellow Belts that run from All Miners to Smelters to Red Belts	
+	
+*. Build and fill Ore Smelter Setup (Space Age Yellow Bus Blueprint 11)
+*. Connect the two previous Ore Smelter Setups together to make Steel and remove Chests from output
+*. Create the Bus for Steel
+	
+*. Place Assembling Machine 2 (Space Age Red Bus Blueprint 1)
+*. Connect Steel Belts to the Assembling Machine 2 Assembling
+*. Upgrade belts and inserters for the Red Belt Assembly 
+
+*. Place Military Inputs (Space Age Red Bus Blueprint 2)
+
+
+GRAB MINERS BELTS power poles gun turrents ammo, shutgo and shot gun shells go set up a Iron minert out post
+
+
+
+
+
+
+
+
+*. Place Piercing Rounds Magazine (Space Age Red Bus Blueprint 3)
+
+
+
+
+*. Use Red Belts to redo the main belt to maintain the Bus Standards while adding in one Lane of Steel, leave the Priority Splitters for the Belts	
+*. Upgrade all the Yellow Belts to Red Belts
+
+	
+	
+*. Build and fill Ore Smelter Setup for Stone (Space Age Yellow Bus Blueprint 1)
+*. Remove Chests from ALL outputs
+*. Creating the Bus for Stone and Stone Bricks 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
