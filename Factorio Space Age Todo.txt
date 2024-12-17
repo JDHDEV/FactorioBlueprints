@@ -1,18 +1,15 @@
 *Make blue print book for bus pieces
 *upgrade the smelter set up early in yellow bus blue print and replay from there
+*limit out puts in the yellow bus BPs to allow most iron to go to the belts
+*RESAER THE CAR THEN THE TANK AND MAKE AN BLUE PRINT FOR BOTH
+*Updae the advanced spine with the first one
+
+reduce the black science to half of the production
+
+take underground pipes out of flame thrower
 
 
-
-think about if i shoult make a boot strap base after the smelter set up to get to red belts as fast as possible???
-
-limit out puts in the yellow bus BPs to allow most iron to go to the belts
-
-
-
-RESAER THE CAR THEN THE TANK AND MAKE AN BLUE PRINT FOR BOTH
-
-
-
+upgrade all the chip and module blueprints to be upgeadre to electomagnetec later
 
 
 

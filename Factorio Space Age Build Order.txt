@@ -1,5 +1,6 @@
 Builder order FasterStart and LongReach
 
+
 #####################################################################################################################################################
 Space Age Start:
 
@@ -103,6 +104,7 @@ Expand Resource Collection:
 *. Build and fill another Belts (Space Age Start Blueprint 7)	
 *. Research Military, Fast Inserter                                  
 
+
 #####################################################################################################################################################
 Space Age Yellow Bus:
 
@@ -171,7 +173,7 @@ The main bus standard is:
 *. Set up 8 Electric Coal Miners onto belts (Space Age Yellow Bus Blueprint 2) (16 Total)	
 
 *. Place 4 Labs at the end of Blueprint 10
-*. Research Automation 2, Military 2, Engine, Automobilism
+*. Research Automation 2, Military 2, Engine, Automobilism, Advanced Material Processing
 
 *. Deconstruct all Coal, Iron and Copper Burner Miners and place all Ores into Smelters
 *. Deconstruct Electric Miner, Burner Miner and Stone Furnace
@@ -197,106 +199,199 @@ The main bus standard is:
 
 *. Take Iron Plates and bootstrap the Assembleing Machines
 
-*. Upgrade the Inserters to Fast Inserters for the Red Belt Assembling Machines and Gears and the remaining Iron Ore Output Chest
+*. Upgrade the Inserters to Fast Inserters for the Red Belt Assembly
 *. Refill all the Chests
 *. Wait until Logistics 2 is done
 
 
-
-
-
-
-
-
-
-
-
-
-
-*. Reverse the Inserters on the Chests after the Smelters except for the furthest right Iron
-
-*. Refill all the Chests
-
-*. Continue to bootstrap the Logistic Science Assembing Machines with Yellow Belts and Inserters
-
-*. Place as many Electric Iron Miners as possible
-
-*. Set up 12 Electric Copper Miners
-
-*. Place as many Electric Coal Miners as possible
-
-*. Set up 4 Electric Stone Miners onto belts into the Ore Smelter Setup (Space Age Yellow Bus Blueprint 2)
-
 #####################################################################################################################################################
 Space Age Red Bus:
 
+*. Research Toolbelt, Lab Research Speed 1, Electric Energy Distribution 1
+*. Build and fill Ore Smelter Setup (Space Age Yellow Bus Blueprint 9) 
+*. Reconfigure the smelters to be 4 Iron, 2 Copper
+*. Set up 12 Electric Iron Miners (72 Total)
+*. Refill all the Chests
 
+*. Build and fill Ore Smelter Setup (Space Age Yellow Bus Blueprint 9)
+*. Connect the two previous Ore Smelter Setups together to make Steel and remove Chests from output
+*. Take Iron Plates and bootstrap the Assembleing Machines
+*. Create the Bus for Steel
 
+*. Place Assembling Machine 2 (Space Age Red Bus Blueprint 1)
+*. Connect Steel Belts to the Assembling Machine 2 Assembly
 
-
-
-
-
-*. Create Priority Spliters for the Iron Belt for the Gears in the Belt Assembling
-*. Make sure that the Belt Assembling Chests have Yellow Splitters and Yellow Underground
-
-putt all extra Iron plates and geasrs into the yellow belt assembly #@!describe the loop
+*. Create Priority Spliters for the Iron Belt for the Gears in the Belt Assembly
 *. Upgrade all the Yellow Belts that run from Iron Miners to Smelters to Red Belts
 *. Upgrade all the Yellow Belts that run from Coal Miners to Smelters to Red Belts
 
-*. Build and fill Ore Smelter Setup (Space Age Yellow Bus Blueprint 11) 
-*. Reconfigure the smelters to be 4 Iron, 2 Copper
-*. Remove the last Iron Chest on the Smelter Output
-	
+*. Set up 24 Electric Iron Miners (96 Total)
+*. Upgrade Assembling Machine 1 to Assembling Machine 2 in the Belt Assembly
 *. Upgrade all the Yellow Belts that run from All Miners to Smelters to Red Belts	
-	
-*. Build and fill Ore Smelter Setup (Space Age Yellow Bus Blueprint 11)
-*. Connect the two previous Ore Smelter Setups together to make Steel and remove Chests from output
-*. Create the Bus for Steel
-	
-*. Place Assembling Machine 2 (Space Age Red Bus Blueprint 1)
-*. Connect Steel Belts to the Assembling Machine 2 Assembling
-*. Upgrade belts and inserters for the Red Belt Assembly 
+*. Take Iron Plates and bootstrap the Assembleing Machines
+
+*. Upgrade all the Yellow Belts before the bus to Red Belts	
+*. Take Iron Plates and bootstrap the Assembleing Machines
+*. Research Fluid Handling, Railway, Solar Energy
+
+*. Build and fill Ore Smelter Setup for Stone (Space Age Yellow Bus Blueprint 1)
+*. Set up 4 Electric Stone Miners onto belts into the Ore Smelter Setup (Space Age Yellow Bus Blueprint 2)
+*. Create the Bus for Stone and Stone Bricks 
 
 *. Place Military Inputs (Space Age Red Bus Blueprint 2)
+*. Place Piercing Rounds Magazine (Space Age Red Bus Blueprint 3)
+*. Place Steel Furnaces, Steel Power Poles, Cars, and Solar Panels (Space Age Red Bus Blueprint 4)
+*. For previous Blueprint only hook up the Steel and Stone Bricks for now
 
+*. Upgrade all the Yellow Belts in the Bus that lead to the Belt Assembly and the Belt Assembly to Red Belts	
+
+*. Deconstruct Stone Bricks
+*. Set up 8 Electric Stone Miners (12 Total)
+
+Do the following as materials become available:
+	*. Upgrade the Stone Furnaces to Steel Furnaces
+	*. Upgrade Assembling Machine 1 to Assembling Machine 2 
+	*. Upgrade all non smelter Inserters to Fast Inserters
+	*. Use Red Belts to redo the main belt to maintain the Bus Standards, leave the Priority Splitters for the Belts	
+	
+*. Upgrade all the Yellow Belts to Red Belts
+*. Reverse the Inserters on the Chests after the Iron Smelters
+*. Remove the Priority Splitters for the Belts
+
+*. Research Oil Gathering, Automated Rail Transportation, Fluid Wagon, Gate, Concrete
+*. Increase power by 20 Steam Engines (50 Total)
+*. Set up 24 Electric Stone Miners (36 Total)
+
+*. Place Trains and Fluids (Space Age Red Bus Blueprint 5)
+*. Add Water and Iron Ore to the Bus
+*. Place Refined Concrete, Walls, Gates (Space Age Red Bus Blueprint 6)
+
+*. Place a Pumpjack on a Crude Oil into a Storage Tank to unlock Oil Processing
+*. Research Circuit Network, Plastics, Sulfer Processing, Lab Research Speed 2, Flammables
+*. Set up the Max amount of Electric Iron Miners (MAX Total)
+
+*. Place as many Pumpjacks as possible.
+*. Create the Oil Refinery using the Oil Refinery Bluprint Book
+*. Hook up the Oil, Water, Iron Plates, and Coal in to the Refinery
+*. Hook up the Plastic Bars and Sulfuric Acid out of the Refinery
+
+*. Research Military Science, Advanced Circuit, Chemical Science Pack
+*. Place Military Science (Space Age Red Bus Blueprint 7)
+*. Place Advanced Circuit (Space Age Red Bus Blueprint 8)
+*. Weave all the Belts together and add Advanced Circuits to the Bus
+
+*. Place Chemical Science (Space Age Red Bus Blueprint 9)
+*. Place Labs Science (Space Age Red Bus Blueprint 10)
+*. Deconstruct Labs
+*. Research Advanced Oil Processing, Battery, Laser, Laser Turret, Electric Energy Accumulators
+
+*. Increase the allowed slots in the output for Undergound Pipes
+*. Upgrade to Advanced Oil Processing using the Oil Refinery Bluprint Book
+
+*. Place Laser Turrets and Accumulator (Space Age Red Bus Blueprint 11)
+*. Research Defender, Military 3
+*. Pipe in Sulfuric Acid to the Bus
+
+*. Place Steel Furnace Setup (Space Age Red Bus Blueprint 12)
+*. Connect the two previous Ore Smelter Setups together to make Steel and remove Chests from output
+
+*. Set up 40 Electric Coal Miners (72 Total)
+*. Place More Power (Space Age Red Bus Blueprint 13) x2
+*. Set up 12 Electric Stone Miners (48 Total)
+
+*. Research Electric Energy Distribution 2, Follower Robot Count 1, Lubricant
+*. Set up 24 Electric Coal Miners (96 Total)
+*. Place an extra Belt going from the Coal Miners to Power.
+
+*. Research the remaining tech that uses only Automation Science
+*. Place Military Consumable (Space Age Red Bus Blueprint 14)
+
+*. Research Bulk Inserter, Follower Robot Count 2
+*. Place Bulk Inserter (Space Age Red Bus Blueprint 15)
+*. Research the remaining tech that uses only Automation Science and Logistic Science
+
+*. Verify that all the Assemblies are correctly connected to the Bus
+*. Add 4th belt from the Iron Miners to the Furnaces
+*. Set up 16 Electric Copper Miners (48 Total)	
+*. Set up the Max amount of Electric Coal Miners (MAX Total)
+
+build the wall around the base
+
+*. Research Flamethrower, Mining Productivity 2, Rocket Fuel, Laser Weapons Damage 1, Tank, Electric Engine
+*. Place Guns 2 (Space Age Red Bus Blueprint 16)
+*. Place Flamethrower (Space Age Red Bus Blueprint 17)
+*. Add Rocket Fuel Assembly to Refinery then add to the Bus
+*. Upgrade all Refineries to Advanced Oil
+
+*. Set up 24 Electric Copper Miners (72 Total)	
+*. Add 2nd Belt from the Copper Miners to the Furnaces
+*. Place More Power (Space Age Red Bus Blueprint 13)
+
+*. Research Robotics, Construction Robotics, Logistic Robotics
+*. Add Lubricant Assembly to Refinery then add to the Bus
+*. Place Logistics and Bots (Space Age Red Bus Blueprint 18)
+
+*. Research Lab Research Speed 3, Processing Unit, Low Density Structure, Advanced Material Processing 2
+*. Increase Research Lab by 10 (30 Total)
+
+place the green chips here
+
+*. Place Processingm Unit (Space Age Red Bus Blueprint 19)
+*. Add Processing Unit to the Bus
+
+*. Research Lab Research Speed 4, Rocket Silo, Worker Robot Speed 1, Worker Robot Cargo Size 1, Production Science
+*. Place Space Production (Space Age Red Bus Blueprint 20)
+
+*. Add 3rd and 4th Belt from the Copper Miners to the Furnaces
+*. Set up 24 Electric Copper Miners (96 Total)	
+
+
+
+create 2 more copper furnace ??
+
+
+place production science
+
+reseaRCH BLUE Belts AND AUTOmation
+
+PLACE BLUE BLEST
+
+make land fill make blue print that can be added over soemthing else
+
+place another green chip
+
+place another red chip
+
+new bluprint book for blue
+
+make upgrade to upgrade to blue belts and passive providers
+
+PLACE AUTOMATION 3
+
+
+6 iron belts 
+
+create another steel furnace ??
+
+more power
+
+
+
+
+
+
+make a personal bluprint that makes everything for suits, equipment
+
+
+
+
+
+
+*. Refill all the Chests
 
 GRAB MINERS BELTS power poles gun turrents ammo, shutgo and shot gun shells go set up a Iron minert out post
 
-
-
-
-
-
-
-
-*. Place Piercing Rounds Magazine (Space Age Red Bus Blueprint 3)
-
-
-
-
-*. Use Red Belts to redo the main belt to maintain the Bus Standards while adding in one Lane of Steel, leave the Priority Splitters for the Belts	
-*. Upgrade all the Yellow Belts to Red Belts
-
-	
-	
-*. Build and fill Ore Smelter Setup for Stone (Space Age Yellow Bus Blueprint 1)
 *. Remove Chests from ALL outputs
-*. Creating the Bus for Stone and Stone Bricks 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
