@@ -334,64 +334,111 @@ build the wall around the base
 *. Research Lab Research Speed 3, Processing Unit, Low Density Structure, Advanced Material Processing 2
 *. Increase Research Lab by 10 (30 Total)
 
-place the green chips here
-
-*. Place Processingm Unit (Space Age Red Bus Blueprint 19)
+*. Place Green Circuits B (Space Age Red Bus Blueprint 19)
+*. Place Processing Unit (Space Age Red Bus Blueprint 20)
 *. Add Processing Unit to the Bus
 
 *. Research Lab Research Speed 4, Rocket Silo, Worker Robot Speed 1, Worker Robot Cargo Size 1, Production Science
-*. Place Space Production (Space Age Red Bus Blueprint 20)
+*. Place Space Production (Space Age Red Bus Blueprint 21)
 
 *. Add 3rd and 4th Belt from the Copper Miners to the Furnaces
-*. Set up 24 Electric Copper Miners (96 Total)	
+*. Set up 24 Electric Copper Miners (96 Total)
+	
+*. Place Production Science (Space Age Red Bus Blueprint 22)
+
+*. Research Logistics 3, Worker Robot Speed 2, Laser Weapons Damage 2, Automation 3
+*. Place Blue Belts (Space Age Red Bus Blueprint 23)
+*. Place Landfill (Space Age Red Bus Blueprint 24)
+*. Place another Advanced Circuit (Space Age Red Bus Blueprint 8)
+
+*. Temporarily disable the inputs to the Steel Furnaces to force Iron Ore into the Iron Furnaces while upgradeing Belts
+*. Place Blue Belts to increase the Iron into the Smelters, then upgrade the Bus Belts of Iron to the Blue Belts Assembly
+*. Research the remaining tech that uses only Red, Green, and Black Science
+*. Reenable the inputs to the Steel Furnaces
 
 
+#####################################################################################################################################################
+Space Age Blue Bus:
 
-create 2 more copper furnace ??
+*. Place Automation 3 (Space Age Blue Bus Blueprint 1)
+*. Place More Power (Space Age Red Bus Blueprint 13) x2
+*. Upgrade the Belts from the Coal Miners to the Power Stations to Blue Belts
+
+*. Place a single Rocket Silo and launch a Space Platform Starter
+*. Place the Basic Space Science Platform (Space Platforms)
+
+*. Place Electric Furnace Set Up (Space Age Blue Bus Blueprint 2) x2
+*. Move the Steel Smelter and Iron Smelter to the left so there can be 4 Copper Smelters
+
+*. Place Green Circuits B (Space Age Red Bus Blueprint 19)
+*. Upgrade Green Circuits Assembly to Assembling Machine 3
+*. Upgrade Belt Assembly to Assembling Machine 3
+
+*. Expand the Roboport network and replace Iron Chests with Passive Providers for the outputs that the Space Platform needs
+
+*. Set up the Max amount of Electric Copper Miners (MAX Total)
+*. Upgrade the Belts from the Copper Miners to the Smelters
+*. Upgrade the Belts from the Copper Smelters to the Bus
+
+*. Research the remaining tech that uses only Red, Green, and Blue Science
+
+*. Set up the Max amount of Electric Stone Miners (MAX Total)
+*. Add 2nd and 3rd Belt from the Stone Miners to the Furnaces
+
+*. Place Storage (Basic Blueprints)
+*. Research Worker Robot Cargo Size 2, Distractor, Research Lab Speed 5
+
+*. Place Utility Science (Space Age Blue Bus Blueprint 3)
+*. Research Military 4, Power Armor MK2, Discharge Defense, Personal Laser Defense, Follower Robot Count 3, Elevated Rail
+
+*. Research Logistics when Space Science is unlocked and the Space Platform is producing Space Science
+
+*. Place Personal Equipment (Space Age Blue Bus Blueprint 4)
+
+*. Research Destroyer, Laser Shooting Speed 1, Laser Weapons Damage 3, Mining Productivity 3
+
+*. Place More Power (Space Age Red Bus Blueprint 13) x3
+
+*. Place Electric Furnace Set Up (Space Age Blue Bus Blueprint 2) x2
+*. Connect the two previous Ore Smelter Setups together to make Steel
+
+*. Add 5th and 6th Belt from the Iron Miners to the Furnaces
+
+*. Place Generic Train Unload (Space Age Trains)
+*. Configure the Station to be an Iron Unload Station and connect with the Steel and Iron Smelters
+
+*. Gather all the Capsules and Weapons needed to clear Biter Bases
+
+*. Build a Rail to the nearest Iron Deposit using "Basic Rail Chunk" and "Basic Laser Defense" (Basic Blueprints)
+*. Build an Iron Mine Outpost using "Generic Train Load" (Space Age Trains)
+*. Set up an Iron Train
+
+*. Research Mining Productivity 4, Mining Productivity 5
+
+*. Build a Rail to the nearest Uranium Deposit using "Basic Rail Chunk" and "Basic Laser Defense" (Basic Blueprints)
+*. Build an Uranium Mine Outpost using "Generic Train Load" and "Basic Fluid Empty" (Space Age Trains)
+*. Build a Sufuric Acid Fill Station using "Basic Fluid Fill" (Space Age Trains)
+*. Set up a Sufuric Acid Train
+
+*. After Uranium is mined Research Nuclear Power, Kovarex Enrichment Process, Nuclear Fuel Reprocessing, Portable Fission Reactor
+
+*. Place "Nuclear" (Space Age Blue Bus Blueprint 5)
+*. Research Research Lab Speed 5, Mining Productivity 6
+
+*. Place "Uranium Processing Plant" (Nuclear Power)
+*. Research Laser Weapons Damage 4, Laser Shooting Speed 2, Personal Battery MK2, Worker Robot Speed 3, Explosive Rocketry, Braking Force 3
 
 
-place production science
-
-reseaRCH BLUE Belts AND AUTOmation
-
-PLACE BLUE BLEST
-
-make land fill make blue print that can be added over soemthing else
-
-place another green chip
-
-place another red chip
-
-new bluprint book for blue
-
-make upgrade to upgrade to blue belts and passive providers
-
-PLACE AUTOMATION 3
+start upgrading the rest of the red belts on the bus to blue
 
 
-6 iron belts 
-
-create another steel furnace ??
-
-more power
+place nuclear reacor
 
 
+start maxing out he passive provider outputs, no limits. then use logistic to gather things, paste blueprint into requst to request the items
 
 
-
-
-make a personal bluprint that makes everything for suits, equipment
-
-
-
-
-
-
-*. Refill all the Chests
-
-GRAB MINERS BELTS power poles gun turrents ammo, shutgo and shot gun shells go set up a Iron minert out post
-
-*. Remove Chests from ALL outputs
+set up blue print for space landing with sr logic on the rwquests
 
 
 

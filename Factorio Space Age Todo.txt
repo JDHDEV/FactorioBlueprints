@@ -3,15 +3,32 @@
 *limit out puts in the yellow bus BPs to allow most iron to go to the belts
 *RESAER THE CAR THEN THE TANK AND MAKE AN BLUE PRINT FOR BOTH
 *Updae the advanced spine with the first one
+*take underground pipes out of flame thrower
+
+make belts assembly only 1 chunk wide
+
+add burner insterter to early blueprints
+
+add belt type to the name of all lane bps
+
+fix lube intake for space item BP
 
 reduce the black science to half of the production
 
-take underground pipes out of flame thrower
+remove uneeded constan combinator from the bots and logistics BP and the uned red belts at the top
 
+update blueprints to have circuits control all out puts and the chest is ffully open so you can place extra stuff in easily
+
+update the bots and logistics blueprint to add steel chest to output
+
+make blueprint for astation the has circuits to request the largest basic materail from storage to load onto a train
 
 upgrade all the chip and module blueprints to be upgeadre to electomagnetec later
 
+put all destructors and upgrades in thier own blueprint books
 
+
+put blueprints name in qoutess
 
 put all books in master book
 
