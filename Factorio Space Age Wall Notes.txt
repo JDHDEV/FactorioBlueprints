@@ -100,7 +100,7 @@ Global Signals:
 			Missles	
 
 			
-	Corner Left:
+	*Corner Left:
 		2x2 Chunks, Snap to 32x32 Grid.
 		Roboports connect to Orgin but do not connect to End.
 		Roboports Request 10 of each Bot.
@@ -124,7 +124,7 @@ Global Signals:
 			Artilery
 			Missles	
 	
-	Corner Right:
+	*Corner Right:
 		2x2 Chunks, Snap to 32x32 Grid.
 		Roboports connect to Orgin but do not connect to End.
 		Roboports Request 10 of each Bot.
@@ -151,25 +151,41 @@ Global Signals:
 	Wall Exit:
 		2x2 Chunks, Snap to 32x32 Grid.
 		Both sides are Orgins with one Roboport.
+		Roboports Request 10 of each Bot.
 		Belts provide Ammo to Gun Turrets from both Orgins to End.
 		All Lasers and Teslas have power.
 		Local Oil connected to all Flamers.
-		Local Oil connects to both Orgins.
+		Local Oil connects to both Orgins with a Pump
 		Big Electric poles connect all Sides.
-		Missle Launchers fed from Requester Chest.
-		Artilery fed from Requester Chest.
+		Missle Launchers fed from Requester Chest. 200 Requested.
+		Artilery fed from Requester Chest. 2 Requested.
 		Has Radar.
 		Has Train Signals.
 		Has good Tiles.
 		Connectable to External Wall.		
-		
-		Local Red Cable connect to Origins.
-		Global Green Cable connect from Orgins to End.
-		Constant Combinator that outputs C = 1 on each of the local Red Cable, 1 chunks of wall.	
-		Can disconnect from logistic network from either side and everything is still within range of robo port
+		Local Red Wire connect to Origins.
+		Global Green Wire connect all Sides.
+		Constant Combinator that outputs required items (described above) on the Local Red Wire, Combinator located on the end.
 		Logistric network is split in the middle, depending on drops of station on both side and everything is still within range of robo port
 	
-
+		Blueprints:
+			Initial
+			Teslas
+			Artilery
+			Missles			
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 	
 	Wall Station:
