@@ -1,0 +1,354 @@
+Space Age The Wall MK1 Dev
+
+
+gLOBAL TODO:
+
+
+	include landfill in construction train
+	
+	make the on ramp to rail be able to have at least 2 trains waiting and not block the main rail?? probably not
+	
+	make blue prints for reloading the the construction train
+	
+	use negative signals to rigger the train to go back to station if any item is completly used
+	
+	make station have soem sort of trigger or switch so its not enabled while being built, have the station start without the minimums constasn combinator active
+	
+	?? dont have restrictions on the rain cargo but use circuits to only load 1 stack of each item then there would be enough room to relaod back onto the train....
+	
+	
+TODO:
+
+Make white light logic depend on all rail signals, any red or yellow signal
+Lights on the side of the rails that light up when train is in the chunck, uses timer? 0 <- 1 <- 2 -> 1 -> 0 based on tain location?
+Gates also trigger light ?	
+Finalize values for all timers	
+	
+	
+	
+	
+Global Signals:
+
+	A - Accumulater charge
+	B -
+	
+	C - Number of Wall Chunck connect to Station
+	
+	T - Ammo Type, 0 = Green, 1 = Red, 2 = Yellow
+	
+	W - Threshold for quantity of "everything else", 25
+	X - Lowest lower threshold of percent, 20
+	Y - Lower threshold of percent, 50
+	Z - Upper threshold of perent. 95
+	
+	Constant combinator settings:
+		100 ammo per Chunk
+		2 Artilery shell per Artilery
+		100 rockets per Chunk
+		10 Walls per Chunk
+		10 Repair Packs per Chunk
+		10 Construction Bots per Roboport
+		10 Logistics Bots per Roboport
+	
+	
+	*Wall Left:
+		2x2 Chunks, Snap to 32x32 Grid.
+		Roboports connect to Orgin but do not connect to End.
+		Roboports Request 10 of each Bot.
+		Belts provide Ammo to Gun Turrets from Orgin to End.
+		All Lasers and Teslas have power.
+		Local Oil connected to all Flamers.
+		Local Oil only connects to Orgin with Pump.
+		Big Electric poles connect from Orgin to End.
+		Missle Launchers fed from Requester Chest. 200 Requested.
+		Artilery fed from Requester Chest. 2 Requested.
+		Has Radar.
+		Has Train Signals.
+		Has good Tiles.
+		Local Red Wire connect to Origin.
+		Global Green Wire connect from Orgin to End.
+		Constant Combinator that outputs required items (described above) on the Local Red Wire, Combinator located on the end.
+		
+		Blueprints:
+			Initial
+			Teslas
+			Artilery
+			Missles						
+		
+	*Wall Right:
+		2x2 Chunks, Snap to 32x32 Grid.
+		Roboports connect to Orgin but do not connect to End.
+		Roboports Request 10 of each Bot.
+		Belts provide Ammo to Gun Turrets from Orgin to End.
+		All Lasers and Teslas have power.
+		Local Oil connected to all Flamers.
+		Local Oil only connects to Orgin with Pump.
+		Big Electric poles connect from Orgin to End.
+		Missle Launchers fed from Requester Chest. 200 Requested.
+		Artilery fed from Requester Chest. 2 Requested.
+		Has Radar.
+		Has Train Signals.
+		Has good Tiles.
+		Local Red Wire connect to Origin.
+		Global Green Wire connect from Orgin to End.
+		Constant Combinator that outputs required items (described above) on the Local Red Wire, Combinator located on the end.
+		
+		Blueprints:
+			Initial
+			Teslas
+			Artilery
+			Missles	
+
+			
+	Corner Left:
+		2x2 Chunks, Snap to 32x32 Grid.
+		Roboports connect to Orgin but do not connect to End.
+		Roboports Request 10 of each Bot.
+		Belts provide Ammo to Gun Turrets from Orgin to End.
+		All Lasers and Teslas have power.
+		Local Oil connected to all Flamers.
+		Local Oil only connects to Orgin with Pump.
+		Big Electric poles connect from Orgin to End.
+		Missle Launchers fed from Requester Chest. 200 Requested.
+		Artilery fed from Requester Chest. 2 Requested.
+		Has Radar.
+		Has Train Signals.
+		Has good Tiles.
+		Local Red Wire connect to Origin.
+		Global Green Wire connect from Orgin to End.
+		Constant Combinator that outputs required items (described above) on the Local Red Wire, Combinator located on the end.
+	
+		Blueprints:
+			Initial
+			Teslas
+			Artilery
+			Missles	
+	
+	Corner Right:
+		2x2 Chunks, Snap to 32x32 Grid.
+		Roboports connect to Orgin but do not connect to End.
+		Roboports Request 10 of each Bot.
+		Belts provide Ammo to Gun Turrets from Orgin to End.
+		All Lasers and Teslas have power.
+		Local Oil connected to all Flamers.
+		Local Oil only connects to Orgin with Pump.
+		Big Electric poles connect from Orgin to End.
+		Missle Launchers fed from Requester Chest. 200 Requested.
+		Artilery fed from Requester Chest. 2 Requested.
+		Has Radar.
+		Has Train Signals.
+		Has good Tiles.
+		Local Red Wire connect to Origin.
+		Global Green Wire connect from Orgin to End.
+		Constant Combinator that outputs required items (described above) on the Local Red Wire, Combinator located on the end.
+	
+		Blueprints:
+			Initial
+			Teslas
+			Artilery
+			Missles	
+
+	Wall Exit:
+		2x2 Chunks, Snap to 32x32 Grid.
+		Both sides are Orgins with one Roboport.
+		Belts provide Ammo to Gun Turrets from both Orgins to End.
+		All Lasers and Teslas have power.
+		Local Oil connected to all Flamers.
+		Local Oil connects to both Orgins.
+		Big Electric poles connect all Sides.
+		Missle Launchers fed from Requester Chest.
+		Artilery fed from Requester Chest.
+		Has Radar.
+		Has Train Signals.
+		Has good Tiles.
+		Connectable to External Wall.		
+		
+		Local Red Cable connect to Origins.
+		Global Green Cable connect from Orgins to End.
+		Constant Combinator that outputs C = 1 on each of the local Red Cable, 1 chunks of wall.	
+		Can disconnect from logistic network from either side and everything is still within range of robo port
+		Logistric network is split in the middle, depending on drops of station on both side and everything is still within range of robo port
+	
+
+
+	
+	Wall Station:
+		2x4 Chunks, Snap to 32x32 Grid.
+		Roboports connect to both Ends.
+		Belts provide Ammo to Gun Turrets from Station to both Ends.
+		All Lasers have power.
+		Global Oil Pumped from End to End.
+		Local Oil connected to all Flamers.
+		Local Oil does not connect to either End.
+		Big Electric poles connect from End to End.
+		Artilery fed from Requester Chest.
+		Has Radar.
+		Has Train Signals.
+		Has good Tiles.
+		Smart Station that disables itself when no items are needed.
+		Station has trash removal logic.
+		cONSTRUCTION DRONES CAN BE BLOCKED BY LOGISTICS BOTS PREVENTING THE STATION FROM BEING MARKED DISABLEED?
+	
+	
+		attempt to put everything on an SR latch
+
+	
+	
+	
+	
+	
+BLUE PRINT Wall Station:
+
+	Lasers get power when oil storage amount changes
+	Alarm lights when laser have power
+	Gun ammo is requested from logistics and fed to guns via belts
+	Art ammo is requested from logistics and fed to guns via inserters
+	Radar is enabled when global accumalter charge (A) > global signal B (B) 
+	Oil uses SR latch to refil controled by global green signals lower threshold (Y) and upper threshold(Z)
+	Train crosswalk on both edges player crossings
+	Lights on the side of the rails that light up when train is in the chunck, uses timer
+
+	
+	
+	Increase large numbers used to filter signal to 1 million
+	
+
+	INCREASE TRAIN STATION PRIORITY THE LESS STUFf they have
+
+
+TODO:
+
+	*Green light when 100% full
+	*Green inserters only active when: (There are items to be removed) AND (A train signal that shows there is no train incoming to station).
+	*Third set of timed yellow lights for the station itself	
+	*Flashing lights when: (Train crates have contents) AND (Train Unloading) AND (Timer after train leaves)	
+	
+	
+	Make white light logic depend on all rail signals, any red or yellow signal
+	Finalize values for all timers
+	
+	
+	Lights on both ends that lights up when there is a signal on red and stays lit for a timer
+	
+	test logic for train that needs drones but is empty
+	
+			Oil uses SR latch to refil controled by global green signals lower threshold (Y) and upper threshold(Z)
+			
+			
+Oil Station: Oil
+
+	*Train Limit set by SR2 + (SR1 + A)
+		*When clearing SR2 is cleared frist and if not set then (SR1 + A) is cleared
+		*If L = 0 AND no tain start Timers A and B
+
+	*Short Timer A to allow SR Latches to signal if train is needed, one for each station. ( oil, ammo, supllies)
+	*Long Timer B to allow 100% check to signal if train is needed, one for each station. ( oil, ammo, supllies)
+	*Timer to allow GREEN signal to train after 4 ticks, will force empty or nothing to unload trains to leave asap.
+	*Timer that activates when train counter is not 0 to confirm that the train ( inventory 100% ) is needed and resets the train counter to 0 if not needed
+	*Need to filter signals for SR2 SR1 and A for different stations
+
+	*Double SR Latch controled by global green signals (Lowest Threshold (X) - Lower Threshold(Y)) and (Lower Threshold (Y) - Upper Threshold(Z)) for Global Oil
+	
+
+
+
+Ammo Station: Ammo, Artilery Round, Walls, Construction Drones, Repair Pack
+     
+	*Train Limit set by SR2 + (SR1 + A)
+		*When clearing SR2 is cleared frist and if not set then (SR1 + A) is cleared
+		*If L = 0 AND crates are empty AND no tain start Timers A and B
+			(maybe only count crates if there are logistic bots in network)
+
+	*Smart Train unloading station 			
+	*Short Timer A to allow SR Latches to signal if train is needed, one for each station. ( oil, ammo, supllies)
+	*Long Timer B to allow 100% check to signal if train is needed, one for each station. ( oil, ammo, supllies)
+	*Timer to allow GREEN signal to train after 4 ticks, will force empty or nothing to unload trains to leave asap.
+	*Timer that activates when train counter is not 0 to confirm that the train ( inventory 100% ) is needed and resets the train counter to 0 if not needed
+	*Need to filter signals for SR2 SR1 and A for different stations
+	*Logic to remove construction drones from train.
+
+	*Double SR Latch controled by global green signals (Lowest Threshold (X) - Lower Threshold(Y)) and (Lower Threshold (Y) - Upper Threshold(Z)) for Ammo, make functional based on ammo type
+	*Double SR Latch controled by global green signals (Lowest Threshold (X) - Lower Threshold(Y)) and (Lower Threshold (Y) - Upper Threshold(Z)) for Artilery Round
+	*Double SR Latch controled by global green signals (Lowest Threshold (X) - Lower Threshold(Y)) and (Lower Threshold (Y) - Upper Threshold(Z)) for Walls
+	*Double SR Latch controled by global green signals (Lowest Threshold (X) - Lower Threshold(Y)) and (Lower Threshold (Y) - Upper Threshold(Z)) for Repair Pack
+	*Double SR Latch controled by global green signals (Lowest Threshold (X) - Lower Threshold(Y)) and (Lower Threshold (Y) - Upper Threshold(Z)) for Construction Drones
+
+
+
+Supply Station: Logistic Drones, Gun Turret, Laser Turret, everything else.
+
+	*Train Limit set by SR2 + (SR1 + A)
+		*When clearing SR2 is cleared frist and if not set then (SR1 + A) is cleared
+		*If L = 0 AND crates are empty AND no tain start Timers A and B
+			(maybe only count crates if there are logistic bots in network)
+
+	*Smart Train unloading station 		
+	*Short Timer A to allow SR Latches to signal if train is needed, one for each station. ( oil, ammo, supllies)
+	*Long Timer B to allow 100% check to signal if train is needed, one for each station. ( oil, ammo, supllies)
+	*Timer to allow GREEN signal to train after 4 ticks, will force empty or nothing to unload trains to leave asap.
+	*Timer that activates when train counter is not 0 to confirm that the train ( inventory 100% ) is needed and resets the train counter to 0 if not needed
+	*Need to filter signals for SR2 SR1 and A for different stations
+	*Logic to remove logistic drones from train.
+		
+	*Double SR Latch controled by global green signals (Lowest Threshold (X) - Lower Threshold(Y)) and (Lower Threshold (Y) - Upper Threshold(Z)) for Logistic Drones
+	*Double SR Latch controled by global green signals (Lowest Threshold (X) - Lower Threshold(Y)) and (Lower Threshold (Y) - Upper Threshold(Z)) for Gun Turret
+	*Double SR Latch controled by global green signals (Lowest Threshold (X) - Lower Threshold(Y)) and (Lower Threshold (Y) - Upper Threshold(Z)) for Laser Turret
+	
+	*If any of the remaining items needs more the Global Green Signal (W) trigger SR1
+	
+	
+	
+	
+	switch back to correct constant combinator	
+
+	
+	
+	
+
+	
+	
+	
+	constructions train station, with smart unloader that gets list from what is currrentyl needed in by the blue print, each stage 1 blue print only request what it needs, stae 2 blue prints would add anotuh constan combinator
+	
+
+	
+
+	
+	?R pulsed on green global wire will cause station to recaclulate its nneeds and re send pulse
+	
+	?set requester chest ro request all extra construction items AND DRONESD from logistics network in response to global signal then send back to home base with the trains
+	
+	?vaanilla circuit train system
+		
+	?ablility to clear the requiested amount debug
+	
+
+
+	
+		
+BLUE PRINT Train Depot:
+
+	Radar is enabled based on global Accumalter charge 
+
+	load cars with smart loader cirtucuits so there is no need for cargo filter
+
+	unload all extra "non requested items"
+
+	reload train with fuel and wait until it is full before green signal
+
+	X pulsed on green global wire will clear all requests
+
+TODO:
+
+	the oil pumps are backwards, in some spots
+
+	collection all not requested items from storage and send them out of logistics via a belt
+
+BLUE PRINT Gate:
+
+
+TODO:
+
+	Is a sepearate logistics with its own bots and everything is requested
+
+

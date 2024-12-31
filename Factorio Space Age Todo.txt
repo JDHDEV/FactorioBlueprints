@@ -4,6 +4,8 @@
 *RESAER THE CAR THEN THE TANK AND MAKE AN BLUE PRINT FOR BOTH
 *Updae the advanced spine with the first one
 *take underground pipes out of flame thrower
+*put all books in master book
+
 
 make belts assembly only 1 chunk wide
 
@@ -28,8 +30,24 @@ upgrade all the chip and module blueprints to be upgeadre to electomagnetec late
 put all destructors and upgrades in thier own blueprint books
 
 
+make all out puts limits controled by global green wire with blue prints for different values at different stages of the games
+
+
+fix green wire in uranium processing bp
+
 put blueprints name in qoutess
 
-put all books in master book
 
 
+
+
+
+
+
+
+
+
+
+
+
+SEND ATTACK SIGNAL FROM ONE WAll chunck to another whil decresing the value, 0 <- 1 <- 2 -> 1 -> 0

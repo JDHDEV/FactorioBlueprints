@@ -428,14 +428,34 @@ Space Age Blue Bus:
 *. Place "Uranium Processing Plant" (Nuclear Power)
 *. Research Laser Weapons Damage 4, Laser Shooting Speed 2, Personal Battery MK2, Worker Robot Speed 3, Explosive Rocketry, Braking Force 3
 
+*. Place Advanced Circuit (Space Age Red Bus Blueprint 8) x2
+*. Start upgrading the Assembling Machines to Assembling Machine 3, Start with Advanced Circuit Assembly
+*. Start upgrading the Red Belts on the Bus to Blue
 
-start upgrading the rest of the red belts on the bus to blue
+*. Research Braking Force 4, Laser Shooting Speed 3, Refined Flammables 3, Stronger Explosives 3, Physical Projectile Damage 5, Weapon Shooting Speed 5, Inserter Capacity Bonus 4
 
+*. Research Space Platform Thruster, Worker Robot Speed 4, Laser Shooting Speed 4, Inserter Capacity Bonus 5, Braking Force 5, Worker Robot Cargo Size 3, Electric Weapons Damage 1
 
-place nuclear reacor
+*. Research Inserter Capacity Bonus 6, Effect Transmission, Laser Shooting Speed 5, Atomic Bomb
+
+*. Increase the amount of Logistic Bots to 4k in the main network.
+*. Increase the amount of Construction Bots to 2k in the main network.
+
+*. Place "Nuclear Power Plant Reactor Plant" (Nuclear Power) x3
+
+*. Research Laser Shooting Speed 6, Laser Shooting Speed 7, Follower Robot Count 4, Refined Flammables 4, Stronger Explosives 4, Laser Weapons Damage 5, Physical Projectile Damage 6
+
 
 
 start maxing out he passive provider outputs, no limits. then use logistic to gather things, paste blueprint into requst to request the items
+
+
+*. Research Productivity Module 2, 
+
+
+build the basic outline wall
+
+
 
 
 set up blue print for space landing with sr logic on the rwquests
